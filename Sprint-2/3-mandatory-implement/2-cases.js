@@ -5,6 +5,11 @@
 
 // Implement a function that:
 
+function upperSnakeCase(srt){
+    return srt.toUpperCase().replaceAll(" ", "_")
+}
+console.log(upperSnakeCase("hello there"))
+
 // Given a string input like "hello there"
 // When we call this function with the input string
 // it returns the string in UPPER_SNAKE_CASE, so "HELLO_THERE"
